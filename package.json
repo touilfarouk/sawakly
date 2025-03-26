@@ -1,0 +1,16 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrapMeDady.js",
+  "type": "module",
+  "scripts": {
+    "start": "node scrapMeDady.js"
+  },
+  "keywords": [],
+  "author": "akka",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.9.0"
+  }
+}
