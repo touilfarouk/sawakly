@@ -23,8 +23,8 @@ const scrapeProducts = async () => {
 
     // Login process
     await page.goto(loginUrl, { waitUntil: "networkidle2" });
-    await page.type("input[name='email']", "farouktouil@hotmail.com", { delay: 100 });
-    await page.type("input[name='password']", "1234Moonlight?!", { delay: 100 });
+    await page.type("input[name='email']", "", { delay: 100 });
+    await page.type("input[name='password']", "", { delay: 100 });
     await page.click("button[type='submit']");
     await page.waitForNavigation({ waitUntil: "networkidle2" });
     console.log("✅ Logged in successfully!");
